@@ -2,6 +2,8 @@
 import 'package:devera_advmovprog_ay2627/providers/theme_provider.dart';
 import 'package:devera_advmovprog_ay2627/screens/home_screen.dart';
 import 'package:devera_advmovprog_ay2627/screens/settings_screen.dart';
+import 'package:devera_advmovprog_ay2627/screens/signin_screen.dart';
+import 'package:devera_advmovprog_ay2627/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
@@ -15,12 +17,12 @@ void main() async {
     _,
   ) async {
     await dotenv.load(fileName: 'assets/.env');
-    runApp(const DeveraAdvMobProg());
+    runApp(const RosalesAdvMobProg());
   });
 }
 
-class DeveraAdvMobProg extends StatelessWidget {
-  const DeveraAdvMobProg({super.key});
+class RosalesAdvMobProg extends StatelessWidget {
+  const RosalesAdvMobProg({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -40,8 +42,8 @@ class DeveraAdvMobProg extends StatelessWidget {
             title: 'E-Commerce App',
             initialRoute: '/',
             routes: {
-              // Enhancement 3: ThemeProvider is registered at app level so Settings can switch dark/light mode.
-              '/': (context) => const HomeScreen(),
+              '/': (context) => const SplashScreen(),
+              '/signin': (context) => const SignInScreen(),
               '/home': (context) => const HomeScreen(),
               '/settings': (context) => const SettingsScreen(),
             },

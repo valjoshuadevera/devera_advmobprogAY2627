@@ -5,3 +5,5 @@
  labact2
   
   The Product class stores ang details ng product tulad ng name, price, brand, at stock. The fromJson() method converts JSON data into Dart objects. Yung ibang classes naman ay para sa additional details tulad ng dimensions, reviews, at product metadata.
+ labact 3 
+ The CartScreen displays the cart ng user, including the product image, title, quantity, total, and discount. Kapag pinindot yung product, pupunta siya sa CartProductDetailScreen para makita yung complete details, including the price and discounted total. Dinagdag din sa Lab Act 3 yung pagkuha ng cart gamit ang user ID at yung Confirm Order button, na magpapakita ng success message kapag successful ang request or error message kapag may naging problem.
