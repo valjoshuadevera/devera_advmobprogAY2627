@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "222295988710",
+    "project_id": "devera-advmobprog2026",
+    "storage_bucket": "devera-advmobprog2026.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222295988710:android:f59c5ff50e716a7cc59e27",
+        "android_client_info": {
+          "package_name": "com.example.devera_advmovprog_ay2627"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJAAACNThf7mD7pAu66G8KI5jpq2rkTwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222295988710:android:76e976dd604e8bc5c59e27",
+        "android_client_info": {
+          "package_name": "com.example.rosales_advmobprog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJAAACNThf7mD7pAu66G8KI5jpq2rkTwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
