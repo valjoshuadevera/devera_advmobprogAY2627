@@ -1,6 +1,7 @@
 
 import 'package:devera_advmovprog_ay2627/firebase_options.dart';
 import 'package:devera_advmovprog_ay2627/providers/theme_provider.dart';
+import 'package:devera_advmovprog_ay2627/screens/chat_screen.dart';
 import 'package:devera_advmovprog_ay2627/screens/home_screen.dart';
 import 'package:devera_advmovprog_ay2627/screens/settings_screen.dart';
 import 'package:devera_advmovprog_ay2627/screens/signin_screen.dart';
@@ -58,6 +59,7 @@ class RosalesAdvMobProg extends StatelessWidget {
               '/signup': (context) => const SignupScreen(),
               '/home': (context) => const HomeScreen(),
               '/settings': (context) => const SettingsScreen(),
+              '/chat': (context) => const ChatScreen(),
             },
           );
         },
